@@ -54,12 +54,14 @@
     list-style: none;
     gap:20px;
     padding-top: 10px;
+   
 }
 .item1 , .item2 {
     text-decoration: none;
     font-size: 16px;
     margin-top: 10px;
     color: #4a4a4a;
+    text-transform: uppercase;
 
 }
 .item1 , .item2:hover:active:visited{
