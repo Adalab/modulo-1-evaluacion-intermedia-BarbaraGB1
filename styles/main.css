@@ -85,23 +85,19 @@
  
    
 }
-.lista2{
+.text{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    
+    
     text-align: center;
     font-weight: bold;
     line-height: 40px;
-}
-.palabra{
-    
-    text-decoration: none;
-    list-style: none;
+    text-transform: capitalize;
     color: #FFFFFF;
     font-size: 30px;
-    
-   
-    
-    
+    word-spacing: 100vw;
+     
 }
+
