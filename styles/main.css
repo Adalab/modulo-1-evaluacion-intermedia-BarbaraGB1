@@ -1,51 +1,21 @@
 *{
     font-family: "rubik" , sans-serif;
-    
+    box-sizing: border-box;
 }
-
-@media all and (min-width: 768px){
-    .menu{
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 50px;
-        align-content: center;
-       
-    }
-    .palabra{
-        font-size: 40px;
-    }
-    .logo{
-       margin-bottom:30px;
-
-    }
-} 
-
 .header{   
     position:fixed;
     z-index:99;
     width: 100vw;
-         
-   
 }
 .menu{
    list-style: none;
-   
    text-align: center;
-   
-    
    background-color: #FFFFFF;
-   
-   }
+}
 .logo{
     width: 155px;
     padding-top: 50px;
-    
 }
-
-
-
 .items{
     display: flex;
     flex-direction: row;
@@ -62,6 +32,7 @@
     margin-top: 10px;
     color: #4a4a4a;
     text-transform: uppercase;
+    padding: 10px;
 
 }
 .item1 , .item2:hover:active:visited{
@@ -71,8 +42,6 @@
     position:relative;
     margin-top: 30px;
 }
-
-
 .section{
     display: flex;
     justify-content: center;
@@ -82,15 +51,11 @@
     width: 100vw;
     height: 100vh;
     margin-top: 30px;
- 
-   
-}
+ }
 .text{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
     text-align: center;
     font-weight: bold;
     line-height: 40px;
@@ -98,6 +63,24 @@
     color: #FFFFFF;
     font-size: 30px;
     word-spacing: 100vw;
-     
 }
 
+@media all and (min-width: 768px){
+    .menu{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        align-content: center;
+       
+    }
+    .text{
+        font-size: 40px;
+    }
+    .logo{
+       margin-bottom:30px;
+       margin-left: 30px;
+
+    }
+} 
