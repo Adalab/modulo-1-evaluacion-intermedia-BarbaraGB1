@@ -6,6 +6,7 @@
     position:fixed;
     z-index:99;
     width: 100vw;
+    top: 0;
 }
 .menu{
    list-style: none;
